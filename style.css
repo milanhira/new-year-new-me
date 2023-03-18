@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+header {
+    background-image: url(images/banner/banner3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 682px;
+    height: 332px;
+}
