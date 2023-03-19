@@ -24,7 +24,7 @@ header {
     color: white;
 }
 .btn {
-    font-size: 12px;
+    font-size: 16px;
     background: white;
     color: blue;
     padding: 8px 12px;
@@ -36,6 +36,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
 }
 .main-content {
     width: 70%;
@@ -54,19 +55,18 @@ main {
     margin: auto 0px auto 0px;
 }
 .right-content > h1 {
-    font-size: 20px;
+    font-size: 40px;
     margin-bottom: 8px;
     font-weight: 700;
     font-family: 'Work Sans', sans-serif;
 }
 .right-content > p {
-    font-size: 8px;
+    font-size: 30px;
     margin-bottom: 8px;
-    line-height: 15px;
 }
 .right-content ul > li {
     list-style: none;
-    font-size: 10px;
+    font-size: 20px;
     line-height: 20px;
     font-size: 8px;
 }
