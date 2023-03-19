@@ -23,6 +23,16 @@ header {
     height: 100vh;
     color: white;
 }
+.header-content > h1 {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    
+    color: #FFFFFF;
+}
 .btn {
     font-size: 16px;
     background: white;
@@ -30,46 +40,4 @@ header {
     padding: 8px 12px;
     margin-top: 10px;
     border-radius: 4px;
-}
-/* main content style */
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-}
-.main-content {
-    width: 70%;
-    height: 400px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.main-content > img {
-    width: 50%;
-    height: auto;
-}
-.right-content {
-    width: 45%;
-    height: auto;
-    margin: auto 0px auto 0px;
-}
-.right-content > h1 {
-    font-size: 40px;
-    margin-bottom: 8px;
-    font-weight: 700;
-    font-family: 'Work Sans', sans-serif;
-}
-.right-content > p {
-    font-size: 30px;
-    margin-bottom: 8px;
-}
-.right-content ul > li {
-    list-style: none;
-    font-size: 20px;
-    line-height: 20px;
-    font-size: 8px;
-}
-i {
-    margin-right: 7px;
 }
