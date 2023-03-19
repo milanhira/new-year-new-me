@@ -33,6 +33,16 @@ header {
     
     color: #FFFFFF;
 }
+.header-content > p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+    text-align: right;
+    color: #FFFFFF;
+}
 .btn {
     font-size: 16px;
     background: white;
