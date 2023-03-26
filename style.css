@@ -52,3 +52,47 @@ header {
     margin-top: 10px;
     border-radius: 4px;
 }
+/* style flex-container box */
+.flex-container {
+    font-family: 'Work Sans';
+    padding: 50px 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.left-side  {
+    width: 50%;
+    height: auto;
+}
+.right-side {
+    margin-top: 60px;
+    margin-left: 15px;
+    width: 50%;
+    padding: 20px;
+    padding-left: 60px;
+    /* border: 1px solid red; */
+}
+.right-header {
+    font-size: 40px;
+    font-weight: 700;
+}
+.right-para {
+    font-size: 15px;
+    margin: 10px 0 8px 0;
+    font-weight: 400;
+    color: rgb(82, 81, 81);
+    line-height: 21px;
+}
+.right-side > ul {
+    list-style: none;
+    line-height: 25px;
+    color: rgb(82, 81, 81);
+    font-size: 17px;
+    padding: 10px 0;
+}
+li> i {
+    color: green;
+    font-size: 17px;
+    margin-right: 8px;
+}
