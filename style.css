@@ -125,3 +125,35 @@ li> i {
     font-size: 24px;
     font-weight: 400;
 }
+/* add styling for main-3 section */
+.main-3 {
+    border: 1px solid red;
+    margin: 20px 80px 30px 80px;
+    background-image:
+    linear-gradient(to right, rgba(30, 112, 243, 0.748), rgba(30, 44, 243, 0.15)),
+    url('images/watch.png');
+    /* background-image: url('images/watch.png'); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    border-radius: 8px;
+    padding: 45px 0 20px 40px;
+}
+.main-3 > h1 {
+    text-align: left;
+    line-height: 45px;
+    color: white;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+}
+.main-3 > .btn {
+    font-family: 'Work Sans';
+    width: 140px;
+    padding: 12px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 23px;
+}
