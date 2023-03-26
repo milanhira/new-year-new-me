@@ -37,8 +37,9 @@ header {
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 25px;
+    width: 500px;
     /* or 162% */
     text-align: right;
     color: #FFFFFF;
