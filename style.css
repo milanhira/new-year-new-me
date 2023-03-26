@@ -132,7 +132,6 @@ li> i {
     background-image:
     linear-gradient(to right, rgba(30, 112, 243, 0.748), rgba(30, 44, 243, 0.15)),
     url('images/watch.png');
-    /* background-image: url('images/watch.png'); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
