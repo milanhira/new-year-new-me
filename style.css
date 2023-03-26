@@ -127,7 +127,6 @@ li> i {
 }
 /* add styling for main-3 section */
 .main-3 {
-    border: 1px solid red;
     margin: 20px 80px 30px 80px;
     background-image:
     linear-gradient(to right, rgba(30, 112, 243, 0.748), rgba(30, 44, 243, 0.15)),
@@ -155,4 +154,64 @@ li> i {
     text-align: center;
     font-weight: 400;
     margin-top: 23px;
+}
+/* adding footer styling section */
+.footer-container {
+    font-family: 'Work Sans';
+    background-color: black;
+    color: #FFFFFF;
+    padding: 100px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style: none;
+    width: 100%;
+    margin-top: 100px;
+}
+.fo-left > h1 {
+    font-size: 40px;
+}
+.fo-left > p {
+    margin: 15px 0;
+}
+.fo-left > ul {
+    list-style: none;
+}
+.fo-left > li > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.fo-left > li {
+    margin-bottom: 15px;
+}
+.fo-left > ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.fo-left > ul > li {
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.fo-right > p {
+    font-size: 22px;
+    margin-bottom: 20px;
+} 
+.fo-right > input[type="email"] {
+    background: none;
+    border: 1px solid white;
+    width: 250px;
+    height: 45px;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.fo-right > button {
+    padding: 18px 40px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: rgb(32, 140, 248);
+    color: white;
+    border: none;
 }
